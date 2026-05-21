@@ -9,7 +9,7 @@ temlate<typename T, typename... Types>
 void print(T firstArg, Types... args)
 {
   std::cout << firstArg << '\n';
-  print(args...); // call print() for remaning arguments
+  print(args...); // call print() for remaining arguments
 }
 
 int main()
